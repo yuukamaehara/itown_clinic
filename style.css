@@ -26,6 +26,10 @@ time, mark, audio, video {
   background: transparent;
 }
 
+body {
+    font-family: "sans-serif" ;
+    }
+
 img { 
     max-width:100%; 
     height:auto; 
@@ -223,6 +227,22 @@ div{
 
 #contact .button{
     text-align: center;
+}
+
+.submit{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
 }
 
 #contact .button input{
